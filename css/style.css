@@ -1,0 +1,322 @@
+body {
+  margin: 0;
+}
+h1 {
+  font-family: 'Heebo', sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+  color: #263846;
+  margin-left: 35px;
+}
+p {
+  margin-left: 35px;
+  margin-right: 35px;
+  font-family: 'Heebo', sans-serif;
+}
+.subClass {
+  font-weight: bold;
+}
+.overview {
+  font-family: 'Heebo', sans-serif;
+  font-size: 25px;
+}
+
+/* Jumbotron  */
+.jumbotron {
+  background-image: url("../images/Group\ 363@2x.png");
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.display-4 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  font-size: 64px;
+  color: #263846;
+  margin-left: 35px;
+}
+.lead {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: normal;
+  font-size: 36px;
+  margin-left: 35px;
+  color: black;
+}
+.container {
+  width: 50%;
+  margin-bottom: 100px;
+}
+
+.researchImg {
+  width: 100%;
+}
+
+/* Footer */
+.emailContain {
+  background: url("../images/servicedog.jpg");
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 800px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  margin-left: 35px;
+  color: black;
+}
+
+/* Footer form */
+form {
+  width: 450px auto;
+  padding: 45px;
+  border: 1px solid #F2F2F2;
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.1);
+  background-color: white;
+}
+.form-control {
+  width: 400px;
+  padding: 15px;
+}
+.sectionHeading {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  color: #263846;
+}
+.btn {
+  background-color: #263846;
+  width: 100px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+a:link {
+  color: black;
+}
+a:hover {
+  font-weight: 900;
+}
+header {
+  background-color:white;
+  padding: 10px 10px 10px 10px;
+}
+.navbar {
+  display: inline-block;
+  padding-left: 15px;
+}
+.name {
+  font-family: 'Roboto Slab', serif;
+  font-weight: normal;
+  font-size: 36px;
+}
+.title {
+  font-family: 'Blinker', sans-serif;
+  font-size: 18px;
+}
+header ul {
+  float: right;
+  color: black;
+  font-family: 'Blinker', sans-serif;
+}
+header li {
+  margin-top: 35px;
+  display: inline-block;
+  padding: 15px 15px;
+}
+header p {
+  display: inline-block;
+}
+.heroImg {
+  background-color: white;
+  padding: 15px 400px 15px 400px;
+  font-family: 'Blinker', sans-serif;
+}
+.content {
+  background-color: #FFFFFF;
+  font-size: 20px;
+}
+button {
+  padding: 15px;
+  background-color: #373738;
+  color: white;
+  font-size: 15px;
+  border-radius: 4px;
+}
+footer {
+  background-color: white;
+  width: 100%;
+  padding: 15px;
+  color: black;
+  float: right;
+  margin-top: 0rem;
+}
+footer ul {
+  list-style: none;
+  padding-left: 5px;
+  float: right;
+}
+footer li {
+  display: inline-block;
+  padding: 0px 15px;
+  font-family: 'Blinker', sans-serif;
+}
+#heroGrid {
+  display: grid;
+  min-height: 500px;
+  height: 70vh;
+  grid-template-rows: 50% 50%;
+  grid-template-columns: 50% 50%;
+  grid-template-areas:
+  "leftBlockTop rightBlockTop"
+  "leftBlockBottom rightBlockBottom";
+}
+.heroGridArea {
+  height: auto;
+}
+#leftBlockTop {
+    grid-area: leftBlockTop;
+    background-color: #83949B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.iconTextContain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.k9pic {
+  height: 124px;
+  width: 118px;
+}
+#leftBlockBottom {
+    grid-area: leftBlockBottom;
+    background-color: #122448;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cutNrun {
+  height: 124px;
+  width: 89px;
+  color: white;
+}
+#rightBlockTop {
+    grid-area: rightBlockTop;
+    background-color: #003865;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.DHSpic {
+  height: 124px;
+  width: 161px;
+}
+#rightBlockBottom {
+    grid-area: rightBlockBottom;
+    background-color: #D4F0FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2 {
+font-family: 'Blinker', sans-serif;
+font-weight: 500;
+color: white;
+}
+
+/* Typewriter Text */
+.topType {
+text-align: center;
+color: black;
+}
+
+/* Responsive Elements */
+
+@media only screen and (max-width: 1000px) {
+#heroGrid {
+  grid-template-areas:
+  "leftBlockTop rightBlockTop"
+  "leftBlockBottom rightBlockBottom";
+}
+.heroImg {
+  padding: 15px 200px 15px 200px;
+}
+}
+@media only screen and (max-width: 900px) {
+#heroGrid {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  grid-template-areas:
+  "leftBlockTop" 
+  "rightBlockTop"
+  "leftBlockBottom"
+  "rightBlockBottom";
+}
+.iconTextContain{
+  margin: 50px 0 50px 0;
+}
+
+body {
+  min-height: 100%;
+  height: 100%;
+  position: relative;
+}
+footer {
+  margin-top: 10rem;
+  margin-bottom: 0;
+}
+p {
+  font-family: 'Blinker', sans-serif;
+}
+}
+
+/* Start Responsive Menu CSS */
+
+.mobile-nav {
+  float: right;
+  margin-top: 35px;
+  margin-left: 25px;
+}
+.menu-btn span {
+  display: block;
+  width: 19px;
+  height: 3px;
+  margin: 4px 0;
+  background: black;
+}
+
+.responsive-menu{
+  display: none;
+  max-width: 120px;
+  background-color: white;
+  height: 400px;
+  color: white;
+  border-radius: 10px;
+  position: absolute;
+  right: 5px;
+}
+  li {
+    margin: 4px;
+    padding: 5px;
+    color: black;
+    list-style-type: none;
+  }
+
+.expand {
+  display: block !important;
+}
+
+
+/* Horizontal Navbar Below */
+.nav-horizontal {
+  margin: -10px;
+}
