@@ -2,11 +2,18 @@
 <html>
   <head>
     <title>Tony's Portfolio</title>
+
     <link href="https://fonts.googleapis.com/css2?family=Blinker&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;700&family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
     <link href="./css/style.css" type="text/css" rel="stylesheet">
+
+          <!-- JS, Popper.js, and jQuery -->
+          <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+          <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+          <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
   </head>
   <body>
     <header>
@@ -45,10 +52,11 @@
     </header>
 
     <div class="jumbotron jumbotron-fluid">
-      <div class="container">
+      <div class="container" id="col-1">
         <h1 class="display-4">K9's for Warriors Client Application</h1>
         <p class="lead">Project to maintain service animal efficacy while living with disabled Veterans.</p>
       </div>
+      <div class="mockup" id="col-2"><img src="./images/k9mock.png"></div>
     </div>
 
     <section class="overview">
@@ -70,10 +78,11 @@
     </section>
 
     <div class="wiretron wiretron-fluid">
-      <div class="wirecontainer">
+      <div class="wirecontainer" id="col-1">
         <h1 class="display-5">Wireframes</h1>
         <p class="wirelead">Early wireframes were built around a calendar concept. Your calendar would show you what milestones were coming due. Upcoming milestones were also shown on the home page and would be checked by the Warrior Trainer when completed.</p>
       </div>
+      <div class="wires" id="col-2"><img src="./images/k9wireframes2.png"></div>
     </div>
 
     <section class="overview">
@@ -129,8 +138,4 @@
   </body>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="./js/index.js"></script>
-  <!-- JS, Popper.js, and jQuery -->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </html>

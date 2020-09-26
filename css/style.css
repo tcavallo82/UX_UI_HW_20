@@ -24,12 +24,23 @@ p {
 
 /* Jumbotron  */
 .jumbotron {
-  background-image: url("../images/Group\ 363@2x.png");
-  background-repeat: no-repeat;
   height: 100vh;
   display: flex;
-  align-items: center;
 }
+
+#col-1 {
+  width: 50%;
+  float: left;
+  height: 100%;
+  margin-bottom: 10px;
+}
+
+#col-2 {
+  width: 50%;
+  float: right;
+  height: 100%;
+}
+
 .display-4 {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: bold;
@@ -45,14 +56,14 @@ p {
   color: black;
 }
 .container {
-  width: 50%;
-  margin-bottom: 100px;
+  margin-top: 200px;
+}
+.mockup {
+  margin-top: 200px;
 }
 
 /* Wireframe Jumbotron  */
 .wiretron {
-  background-image: url("../images/k9wireframesoffset@2x.png");
-  background-repeat: no-repeat;
   height: 100vh;
   display: flex;
   align-items: center;
@@ -72,8 +83,8 @@ p {
   color: black;
 }
 .wirecontainer {
-  width: 30%;
-  margin-bottom: 300px;
+  width: 50%;
+  margin-top: 100px;
 }
 
 .researchImg {
